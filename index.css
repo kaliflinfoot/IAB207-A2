@@ -1,0 +1,140 @@
+html,
+        body {
+            margin: 0;
+            height: 100%;
+            width: 100%;
+            font-family: arial; 
+            padding: 0; 
+            margin-bottom: 2.5rem; 
+            position: absolute; 
+
+        }
+        #wrapper {
+            margin: auto;
+            width: 100%;
+            max-width: 100%;
+        }
+       footer{ 
+         background-color: #0D6EFD;
+          font-family: arial; 
+          position: relative; 
+          bottom: 0; 
+          left: 0; 
+          z-index: 10; 
+          margin-top: 32%; 
+          height: 420px ;
+          width: 100%; 
+          color: white; 
+
+        }
+        .eventsforyou {
+            display: flex;
+            flex-wrap: wrap;
+            font-family: verdana; 
+            position: relative; 
+        }
+        .eventsforyou2 {
+            display: flex;
+            flex-wrap: wrap;
+            font-family: verdana; 
+            position: relative; 
+            margin-top: 27%; 
+        }
+
+        .eventsforyou3 {
+            display: flex;
+            flex-wrap: wrap;
+            font-family: verdana; 
+            position: relative; 
+            margin-top: 27%; 
+        }
+
+        .eventsforyou-heading {
+            position: absolute;
+            margin-top: 0;
+            top: 0;
+            bottom: 0;
+        }
+        .eventsforyou-section {
+            flex: 1 0 250px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+            margin: 3rem .5rem .5rem .5rem;
+            padding: .5rem;
+        }
+        .eventsforyou-section img {
+            display: block;
+            border: 0;
+            width: 100%;
+            height: auto;
+        }
+        .eventgenres {
+            display: flex;
+            flex-wrap: wrap; 
+
+        }
+
+        .eventgenres-heading {
+          position: absolute;
+           
+            
+        }
+        .eventgenres-section {
+            flex: 1 0 250px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+            margin: 4rem .6rem .6rem .6rem;
+            padding: .5rem;
+            background-color: #b5cef7;
+        }
+        .eventgenres-section img {
+            display: block;
+            border: 0;
+            width: 240px;
+            height: 240px;
+        }
+
+    .jumbotronback h1{ 
+        color: #b5cef7; 
+        text-shadow: 5px 5px 0px rgba(0,0,0,0.2);
+    } 
+    .jumbotronback p { 
+      color: #b5cef7; 
+      text-shadow: 5px 5px 0px rgba(0,0,0,0.2);
+    }
+
+    .card-group{ 
+      position: absolute; 
+      top: 0; 
+      margin-top: 4%; 
+      width: 1800px; 
+      margin-left: 2.5%; 
+    }
+    .viewticket{
+          float: right; 
+        }
+      .viewevent{
+          float: right;
+          margin-left: 2%; 
+
+      }
+    .musicnessfooter{ 
+      font-size: 25px;
+      font-weight: 600; 
+    }
+
+    .navbar-brand{ 
+     color: #b5cef7;
+     font-weight:600; 
+    }
+    .card-img-top{
+      height: 240px; 
+      width: 416px; 
+    }
+
+    h1{ 
+    font-weight:600; 
+    }
+ 

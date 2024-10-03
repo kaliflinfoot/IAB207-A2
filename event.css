@@ -1,0 +1,68 @@
+html,
+        body {
+            margin: 0;
+            height: 100%;
+            width: 100%;
+            font-family: arial; 
+            background-color: #b5cef7; 
+        }
+
+        #wrapper {
+            margin: auto;
+            width: 100%;
+            max-width: 100%;
+        }
+        .viewprofilebutton{
+          margin-top: 2%; 
+          margin-bottom: 1%;
+        }
+        h1{ 
+          font-weight: 600; 
+          text-shadow: 5px 5px 0px rgba(0,0,0,0.2);
+        }
+        
+        h5{ 
+          font-weight: 600; 
+        }
+
+        h6{ 
+          font-weight: 600; 
+        }
+        .viewticket{
+          float: right; 
+        }
+        .viewevent{
+          float: right;
+          margin-left: 2%; 
+        }
+        .browseeventsbutton{
+          margin-top: 2%; 
+        }
+        .card-body{ 
+          float: left; 
+        }
+        footer{ 
+         background-color: #0D6EFD;
+          font-family: arial; 
+          position: relative; 
+          bottom: 0; 
+          left: 0; 
+          z-index: 10; 
+          height: 420px ;
+          width: 100%; 
+          color: white; 
+        }
+        .musicnessfooter{ 
+          font-size: 25px;
+          font-weight: 600; 
+    }
+    .navbar-brand{ 
+     color: #b5cef7;
+     font-weight:600; 
+    }
+
+    .card-img-top{
+      height: 240px; 
+      width: 416px; 
+    }
+ 

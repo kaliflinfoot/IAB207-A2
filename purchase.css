@@ -1,0 +1,226 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: arial; 
+    background-color: #b5cef7; 
+}
+head { 
+  font-family: arial; 
+}
+#wrapper {
+    margin: auto;
+    width: 100%;
+    max-width: 100%;
+}
+footer{ 
+  background-color: #0D6EFD;
+  font-family: arial; 
+  position: relative; 
+  bottom: 0; 
+  left: 0; 
+  z-index: 10; 
+  height: 420px ;
+  width: 100%; 
+  color: white; 
+}
+
+.eventdetailsbutton {
+padding: 1px 6px;
+border: 1px outset buttonborder;
+border-radius: 3px;
+color: buttontext;
+background-color: buttonface;
+text-decoration: none;
+}
+
+.purchasebutton {
+padding: 1px 6px;
+border: 1px outset buttonborder;
+border-radius: 3px;
+color: white;
+background-color: green;
+text-decoration: none;
+}
+
+.ticketbooking { 
+background-color: white; 
+height: 1850px ;
+width: 1400px; 
+display: block; 
+font-size: 90;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+h1{ 
+font-weight: 600; 
+text-shadow: 5px 5px 0px rgba(0,0,0,0.2);
+}
+
+h2{ 
+font-weight: 600; 
+}
+h5 { 
+  font-weight: 600; 
+}
+
+.kendrick {
+  display: inline; 
+  color: rgba(0, 0, 0, 0.6);
+}
+.keem{ 
+  color: rgba(0, 0, 0, 0.6);
+}
+.kendrickdescription{ 
+  text-align: center;
+  text-justify: inter-word;
+  width: 40em; 
+  height: auto; 
+  color: rgba(0, 0, 0, 0.6);
+
+}
+.descriptionkendrick{ 
+  text-align: center;
+  text-justify: inter-word;
+  width: 40em; 
+  height: auto; 
+  border: out;
+  color: rgba(0, 0, 0, 0.6);
+
+}
+.kendrickinformation{ 
+  text-align:center; 
+  float: left; 
+  margin-top: 3%;
+  margin-left: 20%;
+}
+
+.description{ 
+  float:right; 
+  margin-top: 3%;
+  margin-right: 20%; 
+}
+.location{
+  float: left; 
+}
+.date{ 
+  float: right 
+}
+.ticketsection{ 
+  margin-top: 23%; 
+}
+.ticketsection p{ 
+  color: rgba(0, 0, 0, 0.6);
+}
+.dropdown label {
+  font-size: 20px; 
+}
+
+
+.timename p{ 
+  color: rgba(0, 0, 0, 0.6);
+}
+.location p{ 
+  color: rgba(0, 0, 0, 0.6);
+}
+.date p{ 
+  color: rgba(0, 0, 0, 0.6);
+}
+.returntoeventsbutton{ 
+  margin-top: 1%;
+}
+.musicnessfooter{ 
+  font-size: 25px;
+  font-weight: 600; 
+}
+.commentsection{
+width: 600px; 
+height: 300px; 
+border: solid; 
+margin-top: 2%; 
+}
+.comment1-wrapper {
+  width: 400px;
+  position: relative;
+} 
+.comment1-wrapper input {
+  width: 100%;
+  padding: 20px 50px 10px 10px;
+  border-radius: 10px;
+  border: 1px solid black; 
+  font-size: 1.1rem;
+  outline: none;
+}
+.comment1-wrapper span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  padding: 10px;
+  color: black; 
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+.comment2-wrapper {
+  width: 400px;
+  position: relative;
+} 
+.comment2-wrapper input {
+  width: 100%;
+  padding: 20px 50px 10px 10px;
+  border-radius: 10px;
+  border: 1px solid black; 
+  font-size: 1.1rem;
+  outline: none;
+}
+.comment2-wrapper span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  padding: 10px;
+  color: black; 
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+.yourcomment {
+  width: 400px;
+  position: relative;
+}
+
+.yourcomment input {
+  width: 100%;
+  padding: 20px 50px 10px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(39, 40, 41, 0.6);
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.yourcomment span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  padding: 10px;
+  color: rgba(39, 40, 41, 0.6);
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+.yourcomment input:focus, 
+.yourcomment input:valid {
+  outline: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.yourcomment input:focus ~ span,
+.yourcomment input:valid ~ span,
+.yourcomment input:not(:placeholder-shown) ~ span {
+  transform: translateY(-33px);
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+.navbar-brand{ 
+color: #b5cef7;
+font-weight:600; 
+}

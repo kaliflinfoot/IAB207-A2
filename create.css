@@ -1,0 +1,512 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: arial; 
+    background-color: #b5cef7; 
+}
+
+footer{ 
+background-color: #0D6EFD;
+  font-family: arial; 
+  position: relative; 
+  bottom: 0; 
+  left: 0; 
+  z-index: 10; 
+  height: 420px ;
+  width: 100%; 
+  color: white; 
+}
+
+#wrapper {
+    margin: auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+.eventcreatebackground { 
+background-color: white; 
+height: 1550px ;
+width: 1400px; 
+display: block; 
+font-size: 90;
+} 
+
+h1{ 
+font-weight: 600; 
+text-shadow: 5px 5px 0px rgba(0,0,0,0.2);
+}
+
+h4{ 
+font-weight: 600; 
+}
+.eventname-wrapper {
+  width: 400px;
+  position: relative;
+}
+
+.eventname-wrapper input {
+  width: 100%;
+  padding: 20px 50px 10px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(39, 40, 41, 0.6);
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.eventname-wrapper span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  padding: 10px;
+  color: rgba(39, 40, 41, 0.6);
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+
+.eventname-wrapper input:focus, 
+.eventname-wrapper input:valid {
+  outline: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.eventname-wrapper input:focus ~ span,
+.eventname-wrapper input:valid ~ span,
+.eventname-wrapper input:not(:placeholder-shown) ~ span {
+  transform: translateY(-33px);
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.time-wrapper {
+  width: 120px;
+  position: relative;
+  margin-top: 1%; 
+}
+
+.time-wrapper input {
+  width: 100%;
+  padding: 20px 50px 10px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(39, 40, 41, 0.6);
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.time-wrapper span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  padding: 10px;
+  color: rgba(39, 40, 41, 0.6);
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+
+.time-wrapper input:focus, 
+.time-wrapper input:valid {
+  outline: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.time-wrapper input:focus ~ span,
+.time-wrapper input:valid ~ span,
+.time-wrapper input:not(:placeholder-shown) ~ span {
+  transform: translateY(-33px);
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
+.location-wrapper {
+  width: 400px;
+  position: relative;
+}
+
+.location-wrapper input {
+  width: 100%;
+  padding: 20px 50px 10px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(39, 40, 41, 0.6);
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.location-wrapper span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  padding: 10px;
+  color: rgba(39, 40, 41, 0.6);
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+
+.location-wrapper input:focus, 
+.location-wrapper input:valid {
+  outline: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.location-wrapper input:focus ~ span,
+.location-wrapper input:valid ~ span,
+.location-wrapper input:not(:placeholder-shown) ~ span {
+  transform: translateY(-33px);
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+.artist-wrapper {
+  width: 400px;
+  position: relative;
+}
+
+.artist-wrapper input {
+  width: 100%;
+  padding: 20px 50px 10px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(39, 40, 41, 0.6);
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.artist-wrapper span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  padding: 10px;
+  color: rgba(39, 40, 41, 0.6);
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+
+
+.artist-wrapper input:focus, 
+.artist-wrapper input:valid {
+  outline: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.artist-wrapper input:focus ~ span,
+.artist-wrapper input:valid ~ span,
+.artist-wrapper input:not(:placeholder-shown) ~ span {
+  transform: translateY(-33px);
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.description-wrapper {
+  width: 400px;
+  position: relative;
+}
+
+.description-wrapper input {
+  width: 100%;
+  padding: 20px 50px 10px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(39, 40, 41, 0.6);
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.description-wrapper span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  padding: 10px;
+  color: rgba(39, 40, 41, 0.6);
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+
+.description-wrapper input:focus, 
+.description-wrapper input:valid {
+  outline: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.description-wrapper input:focus ~ span,
+.description-wrapper input:valid ~ span,
+.description-wrapper input:not(:placeholder-shown) ~ span {
+  transform: translateY(-33px);
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.starttime-wrapper {
+  width: 120px;
+  position: relative;
+  margin-top: 1%; 
+} 
+.starttime-wrapper input {
+  width: 100%;
+  padding: 20px 50px 10px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(39, 40, 41, 0.6);
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.starttime-wrapper span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  padding: 10px;
+  color: rgba(39, 40, 41, 0.6);
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+
+.starttime-wrapper input:focus, 
+.starttime-wrapper input:valid {
+  outline: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.starttime-wrapper input:focus ~ span,
+.starttime-wrapper input:valid ~ span,
+.starttime-wrapper input:not(:placeholder-shown) ~ span {
+  transform: translateY(-33px);
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.endtime-wrapper {
+  width: 120px;
+  position: relative;
+  margin-top: 1%; 
+}
+
+.endtime-wrapper input {
+  width: 100%;
+  padding: 20px 50px 10px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(39, 40, 41, 0.6);
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.endtime-wrapper span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  padding: 10px;
+  color: rgba(39, 40, 41, 0.6);
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+
+.endtime-wrapper input:focus, 
+.endtime-wrapper input:valid {
+  outline: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.endtime-wrapper input:focus ~ span,
+.endtime-wrapper input:valid ~ span,
+.endtime-wrapper input:not(:placeholder-shown) ~ span {
+  transform: translateY(-33px);
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.tickettype-wrapper {
+  width: 200px;
+  position: relative;
+  margin-bottom: 1%; 
+}
+
+.tickettype-wrapper input {
+  width: 100%;
+  padding: 20px 50px 10px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(39, 40, 41, 0.6);
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.tickettype-wrapper span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  padding: 10px;
+  color: rgba(39, 40, 41, 0.6);
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+
+.tickettype-wrapper input:focus, 
+.tickettype-wrapper input:valid {
+  outline: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.tickettype-wrapper input:focus ~ span,
+.tickettype-wrapper input:valid ~ span,
+.tickettype-wrapper input:not(:placeholder-shown) ~ span {
+  transform: translateY(-33px);
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.ticketcost-wrapper {
+  width: 200px;
+  position: relative;
+  margin-bottom: 2%; 
+}
+
+.ticketcost-wrapper input {
+  width: 100%;
+  padding: 20px 50px 10px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(39, 40, 41, 0.6);
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.ticketcost-wrapper span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  padding: 10px;
+  color: rgba(39, 40, 41, 0.6);
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+
+.ticketcost-wrapper input:focus, 
+.ticketcost-wrapper input:valid {
+  outline: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.ticketcost-wrapper input:focus ~ span,
+.ticketcost-wrapper input:valid ~ span,
+.ticketcost-wrapper input:not(:placeholder-shown) ~ span {
+  transform: translateY(-33px);
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.tickettype2-wrapper {
+  width: 200px;
+  position: relative;
+  margin-bottom: 1%; 
+}
+
+.tickettype2-wrapper input {
+  width: 100%;
+  padding: 20px 50px 10px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(39, 40, 41, 0.6);
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.tickettype2-wrapper span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  padding: 10px;
+  color: rgba(39, 40, 41, 0.6);
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+
+.tickettype2-wrapper input:focus, 
+.tickettype2-wrapper input:valid {
+  outline: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.tickettype2-wrapper input:focus ~ span,
+.tickettype2-wrapper input:valid ~ span,
+.tickettype2-wrapper input:not(:placeholder-shown) ~ span {
+  transform: translateY(-33px);
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+.ticketcost2-wrapper {
+  width: 200px;
+  position: relative;
+}
+
+.ticketcost2-wrapper input {
+  width: 100%;
+  padding: 20px 50px 10px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(39, 40, 41, 0.6);
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.ticketcost2-wrapper span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  padding: 10px;
+  color: rgba(39, 40, 41, 0.6);
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+
+.ticketcost2-wrapper input:focus, 
+.ticketcost2-wrapper input:valid {
+  outline: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.ticketcost2-wrapper input:focus ~ span,
+.ticketcost2-wrapper input:valid ~ span,
+.ticketcost2-wrapper input:not(:placeholder-shown) ~ span {
+  transform: translateY(-33px);
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.capacity-wrapper {
+  width: 400px;
+  position: relative;
+}
+
+.capacity-wrapper input {
+  width: 100%;
+  padding: 20px 50px 10px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(39, 40, 41, 0.6);
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.capacity-wrapper span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  padding: 10px;
+  color: rgba(39, 40, 41, 0.6);
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+
+.capacity-wrapper input:focus, 
+.capacity-wrapper input:valid {
+  outline: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.capacity-wrapper input:focus ~ span,
+.capacity-wrapper input:valid ~ span,
+.capacity-wrapper input:not(:placeholder-shown) ~ span {
+  transform: translateY(-33px);
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.musicnessfooter{ 
+font-size: 25px;
+font-weight: 600; 
+}
+.navbar-brand{ 
+color: #b5cef7;
+font-weight:600; 
+}
